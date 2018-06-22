@@ -35,6 +35,7 @@ abstract class BasePackage implements PackageInterface
     const STABILITY_BETA = 10;
     const STABILITY_ALPHA = 15;
     const STABILITY_DEV = 20;
+    const STABILITY_MAGENTO = \PHP_INT_MAX;
 
     public static $stabilities = array(
         'stable' => self::STABILITY_STABLE,
@@ -42,6 +43,7 @@ abstract class BasePackage implements PackageInterface
         'beta' => self::STABILITY_BETA,
         'alpha' => self::STABILITY_ALPHA,
         'dev' => self::STABILITY_DEV,
+        'magento' => self::STABILITY_MAGENTO,
     );
 
     /**
